@@ -1,4 +1,4 @@
-name: BitwardenRSOnHeroku_Deploy
+name: BitwardenRS2OnHeroku_Deploy
 
 on:
   workflow_dispatch:
