@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
 
 env:
-  AUTOBUS_ENABLE: 1
+  AUTOBUS_ENABLE: 0
   CREATE_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
   DUO_ENABLE: 0
-  GIT_HASH: master1
+  GIT_HASH: master
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
   HEROKU_VERIFIED: 0
   OFFSITE_HEROKU_DB: ${{ secrets.OFFSITE_HEROKU_DB }}
